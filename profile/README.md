@@ -87,85 +87,12 @@
 
 List frameworks/libraries in my project.
 
-* [Node.js](https://nodejs.org/)
-* [Express.js](https://expressjs.com/)
-* [Sweetalert2](https://sweetalert2.github.io/)
+* [Spring](https://spring.io/)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-
-1. Get a free API Key at [https://developers.nexon.com/kart](https://developers.nexon.com/kart)
-2. Clone the repo
-   ```sh
-   git clone http://khuhub.khu.ac.kr/2019110627/kartrider.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install 
-   ```
-4. Enter your API in `search.js`
-   ```js
-   //require("dotenv").config({path: ".env"}); 
-   const key = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-main.js
-
-``` JS
-/* AWS */
-const fs = require('fs');
-const path = require('path');
-const HTTPS = require('https');
-const domain = "DOMAIN";
-const sslport = "SSLPORT";
-
-try {
-    const option = {
-      ca: fs.readFileSync('/etc/letsencrypt/live/' + domain +'/fullchain.pem'),
-      key: fs.readFileSync(path.resolve(process.cwd(), '/etc/letsencrypt/live/' + domain +'/privkey.pem'), 'utf8').toString(),
-      cert: fs.readFileSync(path.resolve(process.cwd(), '/etc/letsencrypt/live/' + domain +'/cert.pem'), 'utf8').toString(),
-    };
-  
-    HTTPS.createServer(option, app).listen(sslport, () => {
-      console.log(`[HTTPS] Server is started on port ${sslport}`);
-    });
-  } catch (error) {
-    console.log('[HTTPS] HTTPS 오류가 발생하였습니다. HTTPS 서버는 실행되지 않습니다.');
-    console.log(error);
-  }
-  
-/* local server
-app.listen("8080",function(req,res){
-    console.log('server listening at port no. 8080');
-});
-*/
-```
 
 HOME PAGE
 ![homepage][homepage]
@@ -230,7 +157,8 @@ METADATA : It's owned by Nexon(Kartrider)
 <!-- CONTACT -->
 ## Contact
 
-김명주 - [@naver_blog](https://blog.naver.com/mjoo1106) - mjoo1106@naver.com
+김명주 - mjoo1106@khu.ac.kr <br>
+김민재 - minjaei23@khu.ac.kr
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
