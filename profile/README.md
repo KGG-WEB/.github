@@ -157,8 +157,8 @@ METADATA : It's owned by Nexon(Kartrider)
 <!-- CONTACT -->
 ## Contact
 
-김명주 - mjoo1106@khu.ac.kr <br>
-김민재 - minjaei23@khu.ac.kr
+김명주 - mjoo1106@naver.com <br>
+김민재 - minjaei23@gmail.com
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
