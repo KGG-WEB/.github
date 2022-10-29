@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">KartRider</h3>
+  <h2 align="center">KGG(Kartrider God Game)</h2>
   <p align="center">전적 검색과 성향 테스트 결과에 따른 카트 추천</p>
 </div>
 
@@ -38,25 +38,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#reference">Reference</a></li>
   </ol>
 </details>
 
@@ -64,8 +50,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Page][product-screenshot]](https://2019110627.osschatbot.ga:23023/)
+<p align="center"><img src="images/kart.png"></p>
 
 카트라이더는 넥슨에서 서비스 하는 레이싱 비디오 게임이다. 2004년 부터 서비스를 하고 있지만 lol과 다르게 전적 검색 사이트가 많이 존재하지 않는다.
 
@@ -88,33 +73,37 @@
 List frameworks/libraries in my project.
 
 * [Spring](https://spring.io/)
+* [Hibernate](https://hibernate.org/)
+* [EJS](https://ejs.co/)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-HOME PAGE
-![homepage][homepage]
+<h4>🏸 HOME PAGE</h4>
+<p align="center"><img src="images/homepage.png"></p>
+
+<br>
+<h4>🏸 RECOMMEND PAGE</h4>
+<p align="center"><img src="images/test.png"></p>
+<p align="center"><img src="images/test_r.png"></p>
 
 
-TEST PAGE
-![testpage][test]
-![resultpage][test_r]
+<br>
+<h4>🏸 SEARCH PAGE</h4>
+<p align="center"><img src="images/search.png"></p>
+<p align="center"><img src="images/search_r.png"></p>
 
 
-SEARCH PAGE
-![testpage][search]
-![resultpage][search_r]
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Add back to top links
-- [x] Add AWS version
+- [x] Deploy (Use AWS) [2022. 01. 01 : 서비스 임시 종료]
 - [x] Add Home page
 - [x] Add Additional Templates
 - [x] Add "components" document to easily copy & paste sections of the readme
@@ -122,24 +111,6 @@ SEARCH PAGE
     - [x] Korean
     - [ ] Chinese
     - [ ] Spanish
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch 
-3. Commit your Changes 
-4. Push to the Branch
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -165,11 +136,10 @@ METADATA : It's owned by Nexon(Kartrider)
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- REFERENCE -->
+## Reference
 
 * [Use kartrider api](https://developers.nexon.com/kart/guides)
-* [How to use Ajax](https://api.jquery.com/jquery.ajax/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
